@@ -1,0 +1,13 @@
+language:java
+jdk:
+  - openjdk16
+
+addons:
+  sonarcloud:
+    organization: "alpa-1996"
+    token:
+      secure: "2c3784a377a2b46950462d3dcc3e836984f5d90f"
+
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - sonar-scanner
