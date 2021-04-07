@@ -6,7 +6,7 @@ addons:
   sonarcloud:
     organization: "alpa-1996"
     token:
-      secure: "d8142faa363c354f130fe5ceda7739f6f4bf69dd"
+      secure: travis encrypt 2c3784a377a2b46950462d3dcc3e836984f5d90f
 
 script:
   - sonar-scanner
