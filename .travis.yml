@@ -1,8 +1,8 @@
 addons:
   sonarcloud:
-    organization: "alpa-1996"
+    organization: "2c3784a377a2b46950462d3dcc3e836984f5d90f"
     token:
-      secure: "2c3784a377a2b46950462d3dcc3e836984f5d90f"
+      secure: "d8142faa363c354f130fe5ceda7739f6f4bf69dd"
 
 script:
   - sonar-scanner
